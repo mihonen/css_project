@@ -13,8 +13,8 @@ from concurrent.futures import ThreadPoolExecutor
 # CONFIG
 
 OUTPUT_FILE = "data/scraped.json"
-FEMALES_FILE = "data/female_scientists.csv"
-MALES_FILE = "data/male_scientists.csv"
+FEMALES_FILE = "data/female_scientists_2005.csv"
+MALES_FILE = "data/male_scientists_2005.csv"
 USER_AGENT = 'ComputationalSocialScienceResearchProject/0.1 ' # <- You could add your own contact email here too 
 
 
@@ -50,7 +50,7 @@ def process_person(person):
     name = person["name"]
     gender = person["gender"]
 
-    # print(f"Processing: {name}")
+    print(f"Processing: {name}")
 
     page = site.pages[name]
 
