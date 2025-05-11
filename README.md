@@ -1,4 +1,4 @@
-# Wikipedia Scientist Scraper
+# Unequal Entries: A Content-Analysis of Gender Bias on Wikipedia
 
 - This repository contains code for collecting and processing data about scientists from the Wikipedia API
 - Focus on separate genders
